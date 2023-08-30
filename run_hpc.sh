@@ -443,7 +443,7 @@ run_lammps_protein(){
 }
 
 
-run_cloverleaf_timescal(){
+run_cloverleaf_timescale(){
     local container=$4
 
     docker rm cloverleaf > /dev/null 2>&1
